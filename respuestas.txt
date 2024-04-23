@@ -1,0 +1,14 @@
+
+¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+    El archivo tp2_1_2 no se puede ver, ya que se creo en la rama opcion2 y al moverce a la rama main
+    este deja de existir en ese contexto, es decir para git ese archivo nunca se creo en la rama main.
+
+vuelva a ejecutar el comando gitk --all ¿Qué diferencias nota?
+    Luego de hacer el commit del archivo respuestas.txt  y ejecutar el comando gitk --all se puede
+    observar como se diferencian las 2 ramas y se marca con distintos colores y ademas estan separadas
+    una de otra.
+    
+Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota?
+    Luego de hacer el merge de la rama main con la rama opcion2 y ejecutar el conmando gitk --all
+    se observa como el grafico que representa a las dos ramas que estaban separadas ahora se unen
+    en la rama main.
